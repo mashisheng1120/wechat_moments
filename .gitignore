@@ -1,0 +1,8 @@
+.idea/
+log/
+build/
+dist/
+output/
+app/DataBase/Msg
+.view/
+__pycache__

@@ -201,7 +201,7 @@ class HtmlExporter(threading.Thread):
         msg_dict = xmltodict.parse(message, force_list={"media"})
         msg_json = json.dumps(msg_dict)
         msg = MomentMsg.from_json(msg_json)
-        print("msg:", msg)
+        # print("msg:", msg)
         # 微信ID
         username = msg.timelineObject.username
         # 头像路径

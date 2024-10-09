@@ -19,4 +19,4 @@ jobs:
           python_ver: "3.11"
           requirements: "requirements.txt"
           spec: "main.spec"
-          upload_exe_with_name: "wechatMoments"
+          upload_exe_with_name: "wechat_moments"

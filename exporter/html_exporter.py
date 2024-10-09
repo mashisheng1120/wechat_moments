@@ -222,7 +222,7 @@ class HtmlExporter(threading.Thread):
         # 发布朋友圈的文案
         publish_content = ""
         if msg.timelineObject.contentDesc:
-            publish_content = msg.timelineObject.contentDesc.replace("\n", "<br>")
+            publish_content = msg.timelineObject.contentDesc
             publish_content = EmojiExporter.replace_emoji(publish_content)
         # 发布朋友的图片
         publish_images = ""
